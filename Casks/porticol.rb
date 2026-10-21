@@ -9,4 +9,9 @@ cask "porticol" do
   homepage "https://porticol.app/"
 
   app "Porticol.app"
+
+  # Porticol is not notarised yet, so Gatekeeper refuses a quarantined copy on first launch.
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Porticol.app"]
+  end
 end
