@@ -2,17 +2,17 @@
 class PorticolCli < Formula
   desc "Let coding agents call your APIs without the keys, and run collections in CI"
   homepage "https://porticol.app/"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
-    url "https://updates.porticol.app/#{version}/porticol-cli-0.3.0-macos-universal.tar.gz"
-    sha256 "8f8d598b7f918f7073c4fbedb4c5bc71bea1cef665e0d1a7864c76205ee1a096"
+    url "https://updates.porticol.app/#{version}/porticol-cli-0.4.0-macos-universal.tar.gz"
+    sha256 "f75532e7def789115581b28ba12eaf8f72ef1ed732faf02468f77c5c837f8284"
   end
   on_linux do
     on_intel do
-      url "https://updates.porticol.app/#{version}/porticol-cli-0.3.0-linux-x64.tar.gz"
-      sha256 "1f10d3e718810de2243040629a2463c099ca6f91faa61873080301eb33dfca31"
+      url "https://updates.porticol.app/#{version}/porticol-cli-0.4.0-linux-x64.tar.gz"
+      sha256 "6d81cf96edd14565abd65f870d5f2b41d3480d536a7e5bb714cdaa613c557204"
     end
   end
 
