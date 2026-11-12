@@ -1,7 +1,7 @@
 # Written by release/homebrew/bump.sh; change that script, not this file.
 cask "porticol" do
-  version "0.4.1"
-  sha256 "ad342ea5f67332e10773e1a41381c40c54c100b34d036cac9776bca5d0f3e53e"
+  version "0.4.2"
+  sha256 "335643f80f7d3b379f2a0941772e11ad8d00b8a03ef29dc80ecdbca718467afc"
 
   url "https://updates.porticol.app/#{version}/Porticol.app.tar.gz"
   name "Porticol"
